@@ -50,11 +50,11 @@
 		}
 		
 		if (age.value.length <= 0) {
-			bv = false;
+			ageValid = false;
 			document.getElementById("ck3").innerHTML = "Das Alter konnte nicht leer sein";
 		} else {
 			if (isNaN(ageValue)) {
-				bv = false;
+				ageValid = false;
 				document.getElementById("ck3").innerHTML = "falsches Format, nur Number";
 			}
 		}
